@@ -1,0 +1,30 @@
+---
+title: "Data Science HW1"
+format: html
+editor: visual
+---
+
+## Answering Text Questions
+
+-   Question 1: Personally, I feel as though being a data scientist is about your ability to creatively problem solve and manage data to answer practical questions.
+    -   It seems, based on the readings, that Statisticians are focused on modeling some pattern in observed data, while Data scientists are more focused on using models to find solutions to business problems.
+        -   With regard to these two options, I personally identify more with Statisticians, as most of education has taken place using data that is relatively small in size and clean in its formatting. The one exception to this would be ST 555 in this program, which required a lot of unique problem solving strategies and has exposed me to more unclean/unstructured data than any other class.
+
+## Running Code
+
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+```{r}
+class(y)
+str(y)
+typeof(y)
+```
+
+The code chunk above will determine the class, type, and internal structure of the **y** object. The code below plots the **y** object.
+
+```{r}
+#| echo: false
+plot(y, main = "Sepal Length Density")
+```

@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "Data Science HW1.html#running-code",
+    "href": "Data Science HW1.html#running-code",
+    "title": "Data Science HW1",
+    "section": "Running Code",
+    "text": "Running Code\n\ny &lt;- density(iris$Sepal.Length)\n\n\nclass(y)\n\n[1] \"density\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y        : num [1:512] 0.000232 0.000262 0.000296 0.000333 0.000373 ...\n $ bw       : num 0.274\n $ n        : int 150\n $ call     : language density.default(x = iris$Sepal.Length)\n $ data.name: chr \"iris$Sepal.Length\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\n\nThe code chunk above will determine the class, type, and internal structure of the y object. The code below plots the y object."
+  }
+]
